@@ -1,6 +1,0 @@
-
-    give me a script for a 3b1b video
-    explaining spectral theorem in an intuitive way.
-    The script should include at least 10 scenes.
-    In the end of each scene write [end of scene]
-    

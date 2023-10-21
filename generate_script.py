@@ -1,39 +1,42 @@
 import openai
 import os
 import uuid
+import json
 from utils import get_oai_completion
 
-openai.api_key = "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"
+openai.api_key = "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"
 
-def save_script_and_scenes(idea_prompt, scenes):
-    # Generate a unique id for this completion
-    unique_id = str(uuid.uuid4())
-    # Create a directory with the unique id
-    os.makedirs(unique_id, exist_ok=True)
-    # Save the initial prompt to init_prompt.txt
-    with open(f"{unique_id}/init_prompt.txt", "w") as file:
-        file.write(idea_prompt)
-    # Create a directory for scenes
-    os.makedirs(f"{unique_id}/scenes", exist_ok=True)
-    # Save each scene to a separate file
-    for i, scene in enumerate(scenes):
-        # Get the title for each scene (first 4 words or less)
-        title = "_".join(scene.split()[:4])
-        with open(f"{unique_id}/scenes/{title}.txt", "w") as file:
-            file.write(scene)
+import json
+
+def string_to_json_files(s):
+    # Split the string by the repeated pattern '}{'
+    dicts = s.split("}{")
+    # Add missing curly brackets to the split strings
+    for i in range(len(dicts)):
+        if not dicts[i].startswith("{"):
+            dicts[i] = "{" + dicts[i]
+        if not dicts[i].endswith("}"):
+            dicts[i] = dicts[i] + "}"
+    # Convert each dictionary string to a JSON file
+    for i, d in enumerate(dicts):
+        with open(f'dict_{i+1}.json', 'w') as f:
+            json_obj = json.loads(d)  # Convert string to a Python dictionary
+            json.dump(json_obj, f, indent=4)  # Write the dictionary as a JSON to a file
+# Test
+s = """{...}"""  # Your provided string here
+string_to_json_files(s)
+
+topic = "word embeddings"
 
 if __name__ == "__main__":
     idea_prompt = """
-    give me a script for a 3b1b video
-    explaining spectral theorem in an intuitive way.
-    The script should include at least 10 scenes.
-    return scenes in json format
+    Generate script for an educational video on word embeddings in the style of 3 blue 1 brown.
+    ...
+    \{title:"Act1", act-description:[act1 description], num-of-scenes:[num-of scenes], scenes:[title:[scene1title], scene-visual:[scene-visual], scene-narration:[scene-narration]}
     """
     messages = [
             {"role": "system", "content": idea_prompt},
     ]
     # For streaming
-    game_idea = get_oai_completion(messages, model="gpt-4")
-    scenes = game_idea.split("[end of scene]")
-    print(len(scenes))  # Print the number of scenes generated
-    save_script_and_scenes(idea_prompt, scenes)
+    acts = get_oai_completion(messages, model="gpt-4")
+    print(acts)
