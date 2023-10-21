@@ -53,6 +53,14 @@ p {
     transition: all 0.2s ease-in-out;
 }
 
+.left li eo {
+    color: #cf5a37;
+    font-family: 'Nico Moji', sans-serif;
+    font-weight: bold;
+    -webkit-text-stroke: 1px #d1f9fe;
+}
+
+
 .left li:hover {
     transform: scale(1.1);
   }

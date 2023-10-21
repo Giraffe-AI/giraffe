@@ -1,13 +1,10 @@
 import React, { useState } from 'react';
-import Header from './Header';
 import './Welcome.css';
 import giraffe from '../assets/giraffe.png';
 
 function Welcome() {
-
   return (
     <div>
-      <Header />
       <div className='pre-heading'>
         <p>
           Unlock your learning potential
@@ -26,7 +23,7 @@ function Welcome() {
             <li>For learners</li>
             <li>For creators</li>
             <li>For researchers</li>
-            <li>For everyone</li>
+            <li>For <eo>everyone!</eo></li>
           </ul>
         </div>
         <div className='right'>

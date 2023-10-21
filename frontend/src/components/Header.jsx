@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import giraffe from '../assets/giraffe.png';
 import './Header.css';
 
 function Header() {
