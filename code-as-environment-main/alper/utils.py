@@ -1,6 +1,8 @@
 import openai
 import ast
 
+openai.api_key = "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"
+
 def get_oai_completion(messages, temperature=0, model="gpt-4"):
 
     #streaming by default

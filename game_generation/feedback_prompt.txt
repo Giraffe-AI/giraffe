@@ -1,0 +1,4 @@
+Step by step
+1. Briefly discuss how to address the feedback.
+2. Write out the whole code in one chunk in ```python ``` (Markdown). Otherwise it will not be accepted. 
+3. After generating the code, don't forget to write down a list of your completed tasks and your remaining TODOs from the previous section.

@@ -8,7 +8,7 @@ import os
 import shutil
 
 
-openai.api_key = "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"
+openai.api_key = "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"
 if __name__ == "__main__":
 
     idea_prompt = pathlib.Path("prompts/game_idea/game_idea_prompt.txt").read_text()

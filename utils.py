@@ -33,7 +33,7 @@ def check_code_safety(code : str):
     #ensure that no libraries are imported other than pygame, random, and math
 
     # List of allowed modules
-    allowed_modules = ["pygame", "random", "math"]
+    allowed_modules = ["manim,", "numpy", "math", "random"]
 
     # Parse the code into an Abstract Syntax Tree
     tree = ast.parse(code)

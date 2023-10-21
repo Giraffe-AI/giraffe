@@ -1,0 +1,10 @@
+1. Write the code for this game using pygame==2.5.0. 
+2. Don't avoid complexity. 
+3. Write the whole code in one chunk at every code generation stage.
+4. Use the following imports:
+import pygame 
+import random
+import math
+5. Always write python code between ```python ```.
+6. At the end of each code generation stage, always write down a list of your completed tasks and your remaining TODOs
+You may begin.

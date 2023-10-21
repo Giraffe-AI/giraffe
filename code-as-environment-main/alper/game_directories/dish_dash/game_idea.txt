@@ -1,23 +1,19 @@
 Game Idea: "Dish Dash"
 
-Inspired by the everyday task of washing dishes, "Dish Dash" is a fun and engaging game where the player must clean as many dishes as possible within a given time limit while avoiding obstacles.
+Inspired by the everyday task of washing dishes, "Dish Dash" is a fun and engaging game where the player takes on the role of a dishwasher in a busy restaurant. The goal is to clean as many dishes as possible within a given time frame while avoiding obstacles like slippery soap suds and falling dishes.
 
 Game Parameters:
 
 - Game Genre: Action
 - Movement Type: Single-screen multi-level
-- Game Mechanics: Running, grabbing, cleaning, throwing
-- Game Dynamics: Collision detection, time limit
-- Object Properties: Movable (dishes, cleaning tools), immovable (sink, dish rack), harmful (broken dishes, slippery soap)
-- Score System: Points for each dish cleaned, bonus points for cleaning special dishes, time-based score
-- Game Rules: The player wins if they clean a certain number of dishes within the time limit. The player loses if they break too many dishes or if the time runs out before they reach the target number of clean dishes. The game ends when the player either meets the winning conditions or the losing conditions.
-- Visual Aesthetics: The game uses a bright and clean color palette, with simple and cute sprite designs. The background is a kitchen setting, and the animations are smooth and lively.
-- Randomizable Elements: The types and arrangement of dishes, the appearance of special dishes, the placement of obstacles.
+- Game Mechanics: Running, catching, dodging
+- Game Dynamics: Gravity, collision detection
+- Object Properties: Movable (dishes, soap suds), immovable (sink, dishwasher), destructible (dishes), harmful (falling dishes, slippery soap suds)
+- Score System: Points for each dish cleaned, bonus points for cleaning dishes in quick succession, time-based score
+- Game Rules: The game ends when the time runs out or if too many dishes are dropped and broken. The player wins if they reach a certain score within the given time.
+- Visual Aesthetics: Bright and colorful palette with a retro pixel art style. The sprite size is small to medium with a detailed background of a bustling restaurant kitchen. Smooth animations for running, catching, and dodging.
+- Randomizable Elements: The types and speed of dishes coming in, the frequency of soap suds and falling dishes.
 
 Overall Game Idea:
 
-In "Dish Dash", the player controls a character in a busy kitchen. Dishes appear at one end of the screen, and the player must grab them, clean them at the sink, and then place them on the dish rack at the other end of the screen. The player must do this as quickly as possible, as there is a time limit. 
-
-However, there are obstacles to avoid, such as broken dishes and slippery soap puddles. If the player collides with these, they will lose time or points. Occasionally, special dishes will appear that are worth more points, but they may also be more difficult to clean. 
-
-The game is fast-paced and requires quick reflexes and decision-making. The player must balance speed with caution, as rushing too much can lead to mistakes. The game is easy to learn but hard to master, making it addictive and replayable.
+"Dish Dash" is set in a busy restaurant kitchen. The player controls a dishwasher character who needs to clean as many dishes as possible. Dishes come in from the right side of the screen and the player needs to catch them, clean them at the sink, and then place them in the dishwasher. Occasionally, soap suds will appear which the player needs to dodge or they will slip and lose time. Sometimes dishes will fall from the overhead rack and the player needs to catch them before they hit the ground and break. The game is fast-paced and requires quick reflexes and strategic planning to achieve high scores.

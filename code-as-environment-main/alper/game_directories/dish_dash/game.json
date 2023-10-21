@@ -2,39 +2,36 @@
     "name": "dish_dash",
     "genre": "action",
     "movement_type": "single_screen_multi_level",
-    "game_mechanics": ["running", "grabbing", "cleaning", "throwing"],
-    "game_dynamics": ["collision_detection", "time_limit"],
+    "game_mechanics": ["running", "catching", "dodging"],
+    "game_dynamics": ["gravity", "collision_detection"],
     "object_properties": {
-        "movable": ["dishes", "cleaning_tools"],
-        "immovable": ["sink", "dish_rack"],
-        "harmful": ["broken_dishes", "slippery_soap"]
+        "movable": ["dishes", "soap_suds"],
+        "immovable": ["sink", "dishwasher"],
+        "destructible": ["dishes"],
+        "harmful": ["falling_dishes", "slippery_soap_suds"]
     },
     "score_system": {
         "points_per_dish": 1,
-        "bonus_points": "cleaning_special_dishes",
+        "bonus_points": "cleaning_dishes_in_quick_succession",
         "time_based_score": true
     },
     "game_rules": {
-        "winning_conditions": "clean_target_number_of_dishes_within_time_limit",
-        "losing_conditions": ["break_too_many_dishes", "time_runs_out_before_reaching_target"],
-        "game_ending_conditions": ["meets_winning_conditions", "meets_losing_conditions"]
+        "game_ends": ["time_runs_out", "too_many_dishes_broken"],
+        "winning_condition": "reach_certain_score_within_time"
     },
     "visual_aesthetics": {
-        "color_palette": "bright_and_clean",
-        "sprite_size_and_design": "simple_and_cute",
-        "background": "kitchen_setting",
-        "animation": "smooth_and_lively"
+        "color_palette": "bright_and_colorful",
+        "sprite_size": "small_to_medium",
+        "background": "detailed_restaurant_kitchen",
+        "animation": ["running", "catching", "dodging"]
     },
-    "randomizable_elements": ["types_and_arrangement_of_dishes", "appearance_of_special_dishes", "placement_of_obstacles"],
+    "randomizable_elements": ["types_of_dishes", "speed_of_dishes", "frequency_of_soap_suds_and_falling_dishes"],
     "image_assets": {
-        "character": "cartoon chef png",
+        "dishwasher_character": "cartoon dishwasher character png",
         "dishes": "cartoon dishes png",
-        "cleaning_tools": "cartoon cleaning tools png",
+        "soap_suds": "cartoon soap suds png",
         "sink": "cartoon kitchen sink png",
-        "dish_rack": "cartoon dish rack png",
-        "broken_dishes": "cartoon broken dishes png",
-        "slippery_soap": "cartoon soap puddle png",
-        "special_dishes": "cartoon fancy dishes png",
-        "kitchen_background": "cartoon kitchen background png"
+        "dishwasher": "cartoon dishwasher png",
+        "restaurant_kitchen_background": "cartoon restaurant kitchen background png"
     }
 }
