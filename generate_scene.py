@@ -25,7 +25,7 @@ initial_prompt = """
 5. Write the whole code in one chunk at every code generation stage.
 6. Use the following imports:
 import manim
-7. Always write python code between ```python ```.
+7. ALWAYS ALWAYS write python code between ```python ```.
 """
 
 system_message = """
