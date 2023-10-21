@@ -1,0 +1,4 @@
+file '/Users/mbondarenko/Desktop/ai-educational-video/giraffe/spectral-theorem-example2/media/videos/spectral_theorem/480p15/Diagonalization.mp4'
+file 'spectral-theorem-example2/media/videos/spectral_theorem/480p15ImaginingEigenvectors.mp4'
+file 'spectral-theorem-example2/media/videos/spectral_theorem/480p15Orthogonality.mp4'
+file 'spectral-theorem-example2/media/videos/spectral_theorem/480p15PuttingItTogether.mp4'

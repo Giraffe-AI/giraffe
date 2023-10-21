@@ -1,0 +1,28 @@
+Game Idea: "Dish Washer Dash"
+
+Game Parameters
+
+Game Genre: Action
+Movement Type: Side-scrolling
+Game Mechanics: Running, Grabbing, Throwing
+Game Dynamics: Friction (between player and ground), Collision detection
+Object Properties:
+Movable: Player, Dishes
+Immovable: Counter, Sink
+Destructible: Dishes
+Collectible: Dishes
+Harmful: Broken Dishes
+Score System: Points for cleaned dishes, time-based score (faster cleaning = higher score), penalty for broken dishes
+Game Rules:
+Winning Conditions: Clean all dishes before time runs out
+Losing Conditions: Time runs out with unclean dishes or a certain number of dishes are broken
+Game Ending Conditions: All levels are cleared
+Visual Aesthetics: Retro 8-bit style, sprite size medium, simple backgrounds (kitchen, diner, etc.), animations for dish cleaning and breaking
+Randomizable Elements: Positions of dishes, colors/types of dishes
+Overall Game Functionality
+
+In "Dish Washer Dash", the player's character is a dish washer in a busy kitchen. The objective is to clean all dishes within a time limit. Dishes come in from the right side of the screen on a conveyor belt. The player must grab dishes, wash them at the sink (a stationary location), and put them on the drying rack.
+
+If the player does not grab a dish in time, it falls and breaks, causing a penalty to the score. Some dishes might require multiple wash actions to be fully cleaned. The speed of the conveyor belt and the number of dishes increase with each level. The game ends when the player has cleared all the levels or when they break too many dishes, leading to a game over.
+
+This simple yet engaging concept, inspired by the everyday task of washing dishes, provides a balance of action and strategy, with the necessity to time actions right, manage priorities, and react to changing game dynamics.

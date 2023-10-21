@@ -1,0 +1,19 @@
+Game Idea: "Dish Dash"
+
+Inspired by the everyday task of washing dishes, "Dish Dash" is a fun and engaging game where the player takes on the role of a dishwasher in a busy restaurant. The goal is to clean as many dishes as possible within a given time frame while avoiding obstacles like slippery soap suds and broken dishes.
+
+Game Parameters:
+
+- Game Genre: Action
+- Movement Type: Single-screen multi-level
+- Game Mechanics: Running, grabbing, throwing
+- Game Dynamics: Collision detection, time pressure
+- Object Properties: Movable (dishes, soap bottle), immovable (sink, dish rack), destructible (dishes), harmful (broken dishes, soap suds)
+- Score System: Points for each dish cleaned, bonus points for speed and efficiency, points deducted for broken dishes
+- Game Rules: The game ends when the time runs out or when too many dishes are broken. The player wins by achieving the highest score possible within the given time frame.
+- Visual Aesthetics: Bright and colorful palette with cartoonish sprite design. The background is a bustling restaurant kitchen. Animation includes water and soap bubbles, moving dishes, and the character's actions.
+- Randomizable Elements: Position and type of dishes, appearance of soap suds and broken dishes.
+
+Overall Game Idea:
+
+The player controls a character in a restaurant kitchen, moving left and right to grab dirty dishes, clean them at the sink, and place them on the dish rack. The player must avoid slipping on soap suds and breaking dishes, both of which can slow them down and deduct points. The game becomes more challenging as the pace of incoming dishes increases and more obstacles appear. The player must strategize and prioritize tasks to achieve the highest score within the time limit.

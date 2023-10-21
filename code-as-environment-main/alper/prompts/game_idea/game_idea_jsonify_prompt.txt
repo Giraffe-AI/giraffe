@@ -1,0 +1,23 @@
+Using the game idea above, come up with the following type of json that includes 
+1. the name of the game in snake case
+2. jsonification of the elements described above 
+3. A section called "image assets". This section is really important as the game generator will be grabbing these assets. 
+To add an image asset, 
+    a. add an element to the image_assets section with a snake case name
+    b. the value has to be the google images search query you would have to perform to obtain this image.
+        i. Always add "png" at the end of the prompt for better results.
+        ii. Don't write the query in snake case
+
+{
+    "name": [game_name],
+    "genre": [game_genre],
+    ...
+    "image_assets"
+    {
+        [asset_1_name]:[google images search you would perform to find asset 1]
+        [asset_2_name]:[google image search you would perform to find asset 1]
+        ...
+    }
+}
+
+Respond to this message in JSON. Do not say anything else.
