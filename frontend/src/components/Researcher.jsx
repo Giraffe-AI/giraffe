@@ -1,21 +1,19 @@
 import React from 'react';
 import clock from '../assets/clock.png';
 import notepad from '../assets/notepad.png';
-import giraffeLearners from '../assets/giraffe-learners.png';
+import giraffeResearchers from '../assets/giraffe-researchers.png';
 import './Generator-Generic.css';
 
-function Learner() {
+function Researcher() {
 
     return (
-        <div className='generator' id='learner'>
+        <div className='generator'>
             <div className='generator-header'>
-                <h1>For learners</h1>
+                <h1>For researchers</h1>
                 <p>
-                Select your topic and tell us your level of expertise. 
-                We'll generate a video explanation 
+                Submit the link to a research paper and receive a quick video explanation.
                 <br />
-                curated just for you. 
-                Whether you're an expert or a beginner, we've got you covered.
+                Share the essence of your work with the world in a way that everyone can understand.
                 </p>
             </div>
             <div className='generator-container'>
@@ -23,7 +21,7 @@ function Learner() {
                     <input
                         type='text'
                         className='input-oval'
-                        placeholder='What are diods and how do they work?'
+                        placeholder='Submit your link here'
                     />
                     <div className='dropdown-container'>
                         <div className='pre-form'>
@@ -47,13 +45,13 @@ function Learner() {
                             <option value='indepth'>I want to know everything</option>
                         </select>
                     </div>
-                    <button className="submit-button">start learning now</button>
+                    <button className="submit-button">explain your paper</button>
                 </div>
                 <div className='giraffe-container'>
                     <img
-                        src={giraffeLearners}
-                        alt='giraffe learners'
-                        className='giraffe-learners'
+                        src={giraffeResearchers}
+                        alt='giraffe researchers'
+                        className='giraffe-researchers'
                     />
                 </div>
             </div>
@@ -61,4 +59,4 @@ function Learner() {
     )
 }
 
-export default Learner
+export default Researcher

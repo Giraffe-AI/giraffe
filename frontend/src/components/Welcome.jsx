@@ -20,7 +20,7 @@ function Welcome() {
       <div className='main'>
         <div className='left'>
           <ul>
-            <li>For learners</li>
+            <li href='#learner'>For learners</li>
             <li>For creators</li>
             <li>For researchers</li>
             <li>For <eo>everyone!</eo></li>
