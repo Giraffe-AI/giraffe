@@ -27,7 +27,7 @@ if __name__ == "__main__":
     give me a script for a 3b1b video
     explaining spectral theorem in an intuitive way.
     The script should include at least 10 scenes.
-    return scenes in json format 
+    return scenes in json format
     """
     messages = [
             {"role": "system", "content": idea_prompt},
