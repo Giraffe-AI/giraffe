@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Nico Moji';
+    src: url('../fonts/nicomoji/NicoMoji-Regular.ttf') format('truetype');
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.left p {
+    font-family: 'Nico Moji', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    -webkit-text-stroke: 1px #d1f9fe;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+

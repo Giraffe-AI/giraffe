@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Nunito';
+    src: url('../fonts/nunito/Nunito-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Nico Moji';
+    src: url('../fonts/nicomoji/NicoMoji-Regular.ttf') format('truetype');
+}
+
+body {
+    color: #cf5a37;
+}
+
+p {
+    font-family: 'Nunito', sans-serif;
+    font-size: large;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.pre-heading {
+    margin-top: 5vh;
+}
+
+.heading h1 {
+    font-family: 'Nico Moji', sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: bold;
+    -webkit-text-stroke: 1px #d1f9fe;
+}
+
+.main {
+    display: inline-flex;
+}
+
+.left ul {
+    list-style: none;
+    margin-top: -1vh;
+    margin-left: 10vh;
+}
+
+.left li {
+    color: #4a4b81;
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 2.5vh;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.left li:hover {
+    transform: scale(1.1);
+  }
+
+.right img {
+    margin-top: -20vh;
+    margin-left: 20vh;
+    width: 80%;
+}
+
+.post-main {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}

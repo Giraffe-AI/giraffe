@@ -1,11 +1,12 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react';
+import Welcome from './components/Welcome';
+import './App.css';
 
 function App() {
 
   return (
     <div>
-      <p>We'll have something here </p>
+      <Welcome />
     </div>
   )
 }
