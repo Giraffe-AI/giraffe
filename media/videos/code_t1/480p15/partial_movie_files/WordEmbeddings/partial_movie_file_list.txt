@@ -1,0 +1,12 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t1/480p15/partial_movie_files/WordEmbeddings/4266129954_735898494_223132457.mp4'
+file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t1/480p15/partial_movie_files/WordEmbeddings/1442284246_345352296_1582045056.mp4'
+file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t1/480p15/partial_movie_files/WordEmbeddings/1442284246_3359131335_3939551120.mp4'
+file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t1/480p15/partial_movie_files/WordEmbeddings/1442284246_345352296_2667785492.mp4'
+file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t1/480p15/partial_movie_files/WordEmbeddings/1442284246_87043865_2882805555.mp4'
+file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t1/480p15/partial_movie_files/WordEmbeddings/1442284246_345352296_1753101029.mp4'
+file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t1/480p15/partial_movie_files/WordEmbeddings/1442284246_2662279793_355456848.mp4'
+file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t1/480p15/partial_movie_files/WordEmbeddings/1442284246_345352296_953217472.mp4'
+file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t1/480p15/partial_movie_files/WordEmbeddings/1442284246_2166776710_4178033080.mp4'
+file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t1/480p15/partial_movie_files/WordEmbeddings/1442284246_3423296861_1373461525.mp4'
+file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t1/480p15/partial_movie_files/WordEmbeddings/1442284246_345352296_1725918967.mp4'

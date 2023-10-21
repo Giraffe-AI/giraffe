@@ -1,6 +1,8 @@
 import openai
 import ast
 
+openai.api_key = "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"
+
 def get_oai_completion(messages, temperature=0.2, model="gpt-4"):
 
     #streaming by default
@@ -28,7 +30,6 @@ def get_oai_completion(messages, temperature=0.2, model="gpt-4"):
 
     return completion_text
 
-#rewrite for our usecase
 def check_code_safety(code : str):
     #ensure that no libraries are imported other than pygame, random, and math
 

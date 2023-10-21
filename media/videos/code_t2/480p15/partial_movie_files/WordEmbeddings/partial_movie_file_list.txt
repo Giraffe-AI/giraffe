@@ -1,0 +1,4 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t2/480p15/partial_movie_files/WordEmbeddings/4266129954_3952183256_223132457.mp4'
+file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t2/480p15/partial_movie_files/WordEmbeddings/1442284246_1828324335_553683605.mp4'
+file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t2/480p15/partial_movie_files/WordEmbeddings/1442284246_3792600704_3944100941.mp4'
