@@ -1,0 +1,79 @@
+Scene 1: Introduction
+
+[3b1b animation: The video starts with a 3D animation of a rotating cube.]
+
+Narrator: "Welcome to another 3Blue1Brown video. Today, we're going to explore the Spectral Theorem, a fundamental concept in linear algebra. But don't worry, we'll break it down in a way that's easy to understand."
+
+[End of Scene]
+
+Scene 2: What is the Spectral Theorem?
+
+[3b1b animation: A spectral graph appears on the screen.]
+
+Narrator: "The Spectral Theorem is a statement about linear transformations or, more specifically, about symmetric matrices. It tells us that we can decompose any symmetric matrix into a set of orthogonal eigenvectors."
+
+[End of Scene]
+
+Scene 3: Symmetric Matrices
+
+[3b1b animation: A symmetric matrix appears on the screen.]
+
+Narrator: "Let's start with symmetric matrices. A matrix is symmetric if it's equal to its own transpose. This means that if you flip it along its main diagonal, it remains the same."
+
+[End of Scene]
+
+Scene 4: Eigenvectors and Eigenvalues
+
+[3b1b animation: A matrix and its corresponding eigenvectors and eigenvalues appear.]
+
+Narrator: "Eigenvectors and eigenvalues are key to understanding the Spectral Theorem. An eigenvector of a matrix is a vector that, when the matrix is applied to it, only scales the vector and doesn't change its direction. The factor by which it scales is the eigenvalue."
+
+[End of Scene]
+
+Scene 5: Orthogonal Eigenvectors
+
+[3b1b animation: Two orthogonal eigenvectors are shown.]
+
+Narrator: "Orthogonal eigenvectors are eigenvectors that are at right angles to each other. This means that their dot product is zero."
+
+[End of Scene]
+
+Scene 6: The Spectral Theorem
+
+[3b1b animation: The Spectral Theorem is written out.]
+
+Narrator: "The Spectral Theorem states that for every symmetric matrix, there exists an orthonormal basis of eigenvectors. In other words, we can decompose the matrix into a set of orthogonal eigenvectors."
+
+[End of Scene]
+
+Scene 7: Visualizing the Spectral Theorem
+
+[3b1b animation: A 3D animation of a matrix being decomposed into orthogonal eigenvectors.]
+
+Narrator: "Let's visualize this. Imagine a cube being stretched and squished by a matrix. The Spectral Theorem tells us that we can find a new set of axes, the eigenvectors, where this stretching and squishing happens independently."
+
+[End of Scene]
+
+Scene 8: The Importance of the Spectral Theorem
+
+[3b1b animation: Various applications of the Spectral Theorem are shown.]
+
+Narrator: "The Spectral Theorem is incredibly important in many fields, including physics, computer science, and data analysis. It allows us to simplify complex problems and make them more manageable."
+
+[End of Scene]
+
+Scene 9: The Intuition Behind the Spectral Theorem
+
+[3b1b animation: A recap of the main points of the video.]
+
+Narrator: "So, the intuition behind the Spectral Theorem is that symmetric matrices can be thought of as simple scaling along orthogonal directions. This makes them much easier to understand and work with."
+
+[End of Scene]
+
+Scene 10: Conclusion
+
+[3b1b animation: The 3Blue1Brown logo appears.]
+
+Narrator: "And that's the Spectral Theorem in a nutshell. It's a powerful tool that helps us simplify and understand complex problems. Thanks for watching, and stay curious!"
+
+[End of Scene]
