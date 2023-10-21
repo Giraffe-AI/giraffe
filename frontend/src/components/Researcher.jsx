@@ -1,13 +1,13 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import clock from '../assets/clock.png';
 import notepad from '../assets/notepad.png';
 import giraffeResearchers from '../assets/giraffe-researchers.png';
 import './Generator-Generic.css';
 
-function Researcher() {
+const Researcher = forwardRef((props, ref) => {
 
     return (
-        <div className='generator'>
+        <div className='generator' ref={ref}>
             <div className='generator-header'>
                 <h1>For researchers</h1>
                 <p>
@@ -57,6 +57,6 @@ function Researcher() {
             </div>
         </div>
     )
-}
+});
 
 export default Researcher

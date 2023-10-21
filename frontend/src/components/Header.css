@@ -22,6 +22,8 @@
     font-family: 'Nico Moji', sans-serif;
     font-style: normal;
     font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
     -webkit-text-stroke: 1px #d1f9fe;
 }
 

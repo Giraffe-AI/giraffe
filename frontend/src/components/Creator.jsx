@@ -1,13 +1,13 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import clock from '../assets/clock.png';
 import notepad from '../assets/notepad.png';
 import giraffeCreators from '../assets/giraffe-creators.png';
 import './Generator-Generic.css';
 
-function Creator() {
+const Creator = forwardRef((props, ref) => {
 
     return (
-        <div className='generator'>
+        <div className='generator' ref={ref}>
             <div className='generator-header'>
                 <h1>For creators</h1>
                 <p>
@@ -57,6 +57,6 @@ function Creator() {
             </div>
         </div>
     )
-}
+});
 
 export default Creator

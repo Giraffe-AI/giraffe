@@ -1,8 +1,24 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Welcome.css';
 import giraffe from '../assets/giraffe.png';
 
-function Welcome() {
+const Welcome = ({ learnerRef, creatorRef, researcherRef }) => {
+
+  const learnerClick = (e) => {
+    e.preventDefault();
+    learnerRef.current.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const creatorClick = (e) => {
+    e.preventDefault();
+    creatorRef.current.scrollIntoView({ behavior: "smooth" });
+  };
+
+  const researcherClick = (e) => {
+    e.preventDefault();
+    researcherRef.current.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <div>
       <div className='pre-heading'>
@@ -20,9 +36,9 @@ function Welcome() {
       <div className='main'>
         <div className='left'>
           <ul>
-            <li href='#learner'>For learners</li>
-            <li>For creators</li>
-            <li>For researchers</li>
+            <li onClick={learnerClick}>For learners</li>
+            <li onClick={creatorClick}>For creators</li>
+            <li onClick={researcherClick}>For researchers</li>
             <li>For <eo>everyone!</eo></li>
           </ul>
         </div>
@@ -32,9 +48,9 @@ function Welcome() {
       </div>
       <div className='post-main'>
         <p>
-        Get personalized video content that explains 
-        <br />
-        complex topics in the way you'll understand best
+          Get personalized video content that explains
+          <br />
+          complex topics in the way you'll understand best
         </p>
       </div>
     </div>
