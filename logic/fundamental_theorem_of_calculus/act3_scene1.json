@@ -1,0 +1,6 @@
+{
+    "scene-filename": "act3_scene1",
+    "scene-title": "Main Proof of the Fundamental Theorem of Calculus",
+    "scene-visual": "A step-by-step visual representation of the proof of the Fundamental Theorem of Calculus.",
+    "scene-narration": "The Fundamental Theorem of Calculus states that if a function f is continuous over the interval [a, b] and F is an antiderivative of f on [a, b], then the definite integral of f from a to b is equal to F(b) - F(a). This theorem essentially tells us that the process of differentiation and integration are reverse processes of each other."
+}

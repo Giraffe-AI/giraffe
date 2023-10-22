@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route path="/" element={<Navigate to="/home" />} />
       <Route index={true} path="/home" element={<App />} />
       <Route index={true} path="/video/load" element={<Video video={tempVideo}/>} />
-      <Route index={true} path="/video/result" element={<Video video='final'/>} />
+      <Route index={true} path="/video/result" element={<Video video={tempVideo}/>} />
     </Routes>
   </BrowserRouter>
 )

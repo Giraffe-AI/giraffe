@@ -19,7 +19,8 @@ const Welcome = ({ learnerRef, creatorRef, researcherRef }) => {
     researcherRef.current.scrollIntoView({ behavior: "smooth" });
   };
 
-  const everyoneClick = () => {
+  const everyoneClick = (e) => {
+    e.preventDefault();
     window.location.href = '/video/load';
   };
 

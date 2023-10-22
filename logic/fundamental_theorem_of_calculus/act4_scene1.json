@@ -1,0 +1,6 @@
+{
+    "scene-filename": "act4_scene1",
+    "scene-title": "Explanation of the Fundamental Theorem of Calculus",
+    "scene-visual": "Visual examples of different functions and their integrals and derivatives, demonstrating the theorem.",
+    "scene-narration": "Let's break this down. Imagine you have a function that represents the speed of a car over time. The integral of this function from a to b would give you the total distance travelled by the car in that time period. Now, if you were to differentiate this distance function, you would get back the original speed function. This is the essence of the Fundamental Theorem of Calculus."
+}
