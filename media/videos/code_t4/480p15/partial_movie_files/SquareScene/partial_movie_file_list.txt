@@ -1,4 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t4/480p15/partial_movie_files/SquareScene/4266129954_914954805_223132457.mp4'
-file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t4/480p15/partial_movie_files/SquareScene/1442284246_4195306579_1894554257.mp4'
-file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t4/480p15/partial_movie_files/SquareScene/1442284246_3315967912_1293687513.mp4'

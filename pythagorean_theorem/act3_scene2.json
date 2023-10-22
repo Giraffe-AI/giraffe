@@ -1,6 +1,0 @@
-{
-    "scene-filename": "act3_scene2",
-    "scene-title": "Explaining the Square",
-    "scene-visual": "Animation of the square with side length a + b",
-    "scene-narration": "The larger square has side length a + b, so its area is (a + b)^2."
-}
