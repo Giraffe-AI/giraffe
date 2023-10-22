@@ -1,0 +1,6 @@
+{
+    "scene-filename": "act1_scene2",
+    "scene-title": "Statement of Pythagorean Theorem",
+    "scene-visual": "Animation showing the formula a^2 + b^2 = c^2",
+    "scene-narration": "The Pythagorean theorem states that in a right-angled triangle, the square of the length of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the lengths of the other two sides. This can be written as a^2 + b^2 = c^2."
+}

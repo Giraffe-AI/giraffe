@@ -1,0 +1,6 @@
+{
+    "scene-filename": "act3_scene2",
+    "scene-title": "Completing the Proof",
+    "scene-visual": "Animation showing the rearrangement of the triangles to form two squares",
+    "scene-narration": "Now, if we rearrange these triangles, we can form two squares: one with side length a and one with side length b. The total area of these squares is equal to the area of the original square, proving the Pythagorean theorem."
+}
