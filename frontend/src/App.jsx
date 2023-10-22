@@ -6,21 +6,27 @@ import Creator from './components/Creator';
 import Researcher from './components/Researcher';
 import './App.css';
 
-function App() {
+export default function App() {
 
   const learnerRef = useRef(null);
   const creatorRef = useRef(null);
   const researcherRef = useRef(null);
 
+  const handleClick = () => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <div>
-      <Header />
+      <Header handleClick={handleClick}/>
       <Welcome learnerRef={learnerRef} creatorRef={creatorRef} researcherRef={researcherRef} />
       <Learner ref={learnerRef} />
       <Creator ref={creatorRef}/>
       <Researcher ref={researcherRef}/>
     </div>
   )
-}
-
-export default App
+};
