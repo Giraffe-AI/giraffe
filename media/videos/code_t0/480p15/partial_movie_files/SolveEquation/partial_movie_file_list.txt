@@ -1,5 +1,0 @@
-# This file is used internally by FFMPEG.
-file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t0/480p15/partial_movie_files/SolveEquation/4266129954_1560898430_223132457.mp4'
-file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t0/480p15/partial_movie_files/SolveEquation/1442284246_1095386679_2157827619.mp4'
-file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t0/480p15/partial_movie_files/SolveEquation/1442284246_3073779459_922163170.mp4'
-file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t0/480p15/partial_movie_files/SolveEquation/1442284246_83659204_2972059864.mp4'
