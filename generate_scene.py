@@ -53,8 +53,9 @@ initial_prompt = """
 8. Make sure that all visualizations are coherent and has a mathematical basis.
 9. Write the whole code in one chunk at every code generation stage.
 10. Always write python code between ```python ```.
-13. You are allowed to import manim, import numpy as np and to use latex.
-14. DO NOT INCLUDE ANY OUTSIDE GRAPHICS OR IMAGES. ONLY USE MANIM AND LATEX.
+11. You are allowed to import manim, import numpy as np.
+12. DO NOT USE COLOR. KEEP DEFAULT COLORS.
+13. DO NOT INCLUDE ANY OUTSIDE GRAPHICS OR IMAGES. ONLY USE MANIM.
 """
 
 system_message = """
@@ -75,7 +76,7 @@ error_prompt = """
 Step by step
 1. Check your work. Twice.
 2. Check if the animation neccessary?
-3. Make sure no objects are overlapping. 
+3. Make sure no objects are overlapping.
 4. Does your animation support what is explained in the narration?
 5. Briefly discuss how to address the error.
 6. Write out the whole code in one chunk in ```python ``` (Markdown). Otherwise it will not be accepted.

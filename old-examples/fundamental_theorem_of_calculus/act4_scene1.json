@@ -1,0 +1,6 @@
+{
+    "scene-filename": "act4_scene1",
+    "scene-title": "Explanation of the Proof",
+    "scene-visual": "A detailed explanation of each step of the proof, with visuals to aid understanding.",
+    "scene-narration": "This proof might seem a bit abstract, so let's break it down. The key idea here is that the integral of a function gives us the area under the curve of that function. The antiderivative of a function gives us a new function, the slope of which at any point is equal to the value of the original function at that point."
+}

@@ -1,7 +1,7 @@
 import openai
 import ast
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 def get_oai_completion(messages, temperature=0.2, model="gpt-4"):
 

@@ -8,12 +8,14 @@ with open('topic.txt', 'r') as file:
 # List to hold all the VideoFileClip objects
 clips = []
 
-for filename in os.listdir(folder_path):
-    if filename.endswith(".mp4"):
-        mp4_filepath = os.path.join(folder_path, filename)
-        
-        # Load the video clip and append it to the clips list
-        clips.append(VideoFileClip(mp4_filepath))
+# Get a sorted list of all .mp4 filenames in the directory
+mp4_files = sorted([f for f in os.listdir(folder_path) if f.endswith(".mp4")])
+
+for filename in mp4_files:
+    mp4_filepath = os.path.join(folder_path, filename)
+
+    # Load the video clip and append it to the clips list
+    clips.append(VideoFileClip(mp4_filepath))
 
 # Concatenate all the video clips
 if clips:

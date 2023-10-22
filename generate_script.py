@@ -5,7 +5,7 @@ import json
 from utils import get_oai_completion
 
 
-topic = "chain rule"
+topic = "fundamental theorem of calculus"
 
 def is_valid_json(s):
     try:
