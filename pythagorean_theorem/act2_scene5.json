@@ -1,6 +1,6 @@
 {
     "scene-filename": "act2_scene5",
-    "scene-title": "Solving the Equation",
-    "scene-visual": "Animation of the equation being solved",
-    "scene-narration": "Solving this equation, we find that a^2 + b^2 = c^2, which is the Pythagorean theorem."
+    "scene-title": "Transition to Main Proof",
+    "scene-visual": "Animation of the three squares with their areas labeled",
+    "scene-narration": "This comparison will lead us to the main proof of the Pythagorean theorem."
 }

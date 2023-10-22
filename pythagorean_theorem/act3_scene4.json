@@ -1,6 +1,6 @@
 {
     "scene-filename": "act3_scene4",
-    "scene-title": "Equating the Areas",
-    "scene-visual": "Animation of the equation being solved",
-    "scene-narration": "Equating the areas, we get (a + b)^2 = 2ab + c^2."
+    "scene-title": "Main Proof: Part 4",
+    "scene-visual": "Animation showing the equality of the areas",
+    "scene-narration": "This sum is equal to the area of the square on the hypotenuse, which is c\u00b2."
 }

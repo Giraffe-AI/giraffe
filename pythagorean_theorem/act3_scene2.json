@@ -1,6 +1,6 @@
 {
     "scene-filename": "act3_scene2",
-    "scene-title": "Explaining the Square",
-    "scene-visual": "Animation of the square with side length a + b",
-    "scene-narration": "The larger square has side length a + b, so its area is (a + b)^2."
+    "scene-title": "Main Proof: Part 2",
+    "scene-visual": "Animation showing the areas of the squares on the other two sides",
+    "scene-narration": "The areas of the squares on the other two sides are a\u00b2 and b\u00b2."
 }

@@ -1,6 +1,6 @@
 {
     "scene-filename": "act2_scene4",
-    "scene-title": "Equating the Areas",
-    "scene-visual": "Animation of the formula for the area of a square",
-    "scene-narration": "The area of the larger square is (a + b)^2, and the combined area of the four triangles and the smaller square is 2ab + c^2."
+    "scene-title": "Area Comparison",
+    "scene-visual": "Animation comparing the areas of the three squares",
+    "scene-narration": "Now, we compare the areas of these three squares."
 }

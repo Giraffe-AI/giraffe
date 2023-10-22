@@ -52,9 +52,10 @@ initial_prompt = """
 4. Make sure any text, diagrams or formulas fit fully on the screen.
 5. Write the whole code in one chunk at every code generation stage.
 6. The code should output a video in the end, not just
-7. Use the following imports:
+7. DO NOT use any outside pictures or resources in your code and do not try to access them through your code!
+8. Use the following imports:
 import manim
-8. ALWAYS ALWAYS write python code between ```python ```.
+9. ALWAYS ALWAYS write python code between ```python ```.
 """
 
 system_message = """
@@ -111,7 +112,7 @@ os.makedirs(out_dir)
 # print("break")
 # breakpoint()
 
-for t in range(10):
+for t in range(3):
         gpt_completion = get_oai_completion(messages)
         response_code = response_to_code(gpt_completion)
         # remove for now
