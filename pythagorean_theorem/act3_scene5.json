@@ -1,6 +1,6 @@
 {
     "scene-filename": "act3_scene5",
-    "scene-title": "Solving the Equation",
-    "scene-visual": "Animation of the equation being simplified",
-    "scene-narration": "Simplifying this equation, we find that a^2 + b^2 = c^2."
+    "scene-title": "Main Proof: Conclusion",
+    "scene-visual": "Animation showing the equality a\u00b2 + b\u00b2 = c\u00b2",
+    "scene-narration": "Therefore, we have proved that a\u00b2 + b\u00b2 = c\u00b2, which is the Pythagorean theorem."
 }

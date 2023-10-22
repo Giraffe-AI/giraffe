@@ -1,6 +1,6 @@
 {
     "scene-filename": "act4_scene2",
-    "scene-title": "Applications of the Theorem",
-    "scene-visual": "Animation of various applications of the theorem",
-    "scene-narration": "This theorem has countless applications, from architecture to physics to computer graphics."
+    "scene-title": "Explanation: Distance Formula",
+    "scene-visual": "Animation showing the distance formula derived from the Pythagorean theorem",
+    "scene-narration": "For example, the distance formula in a Cartesian coordinate system is a direct application of the Pythagorean theorem."
 }

@@ -1,6 +1,6 @@
 {
     "scene-filename": "act3_scene3",
-    "scene-title": "Explaining the Triangles and the Smaller Square",
-    "scene-visual": "Animation of the four triangles and the smaller square",
-    "scene-narration": "Each triangle has area 1/2ab, so the four triangles together have area 2ab. The smaller square has area c^2."
+    "scene-title": "Main Proof: Part 3",
+    "scene-visual": "Animation showing the sum of the areas of the squares on the other two sides",
+    "scene-narration": "The sum of the areas of these two squares is a\u00b2 + b\u00b2."
 }

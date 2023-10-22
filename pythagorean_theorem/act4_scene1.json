@@ -1,6 +1,6 @@
 {
     "scene-filename": "act4_scene1",
-    "scene-title": "Conclusion",
-    "scene-visual": "Animation of the Pythagorean theorem",
-    "scene-narration": "And there you have it, the Pythagorean theorem."
+    "scene-title": "Explanation: Importance of Pythagorean Theorem",
+    "scene-visual": "Animation showing various applications of the Pythagorean theorem",
+    "scene-narration": "The Pythagorean theorem is not just a mathematical curiosity. It has numerous applications in various fields, including physics, engineering, computer science, and even art."
 }
