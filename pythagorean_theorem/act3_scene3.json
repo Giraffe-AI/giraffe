@@ -1,0 +1,6 @@
+{
+    "scene-filename": "act3_scene3",
+    "scene-title": "Explaining the Triangles and the Smaller Square",
+    "scene-visual": "Animation of the four triangles and the smaller square",
+    "scene-narration": "Each triangle has area 1/2ab, so the four triangles together have area 2ab. The smaller square has area c^2."
+}

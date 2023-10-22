@@ -7,15 +7,43 @@ from utils import get_oai_completion, check_code_safety
 import argparse
 import json
 
+#assume we got topic smhw
 
-scene_description = """
-    "title":"Scene 3: Visual Proof", 
-    "scene-visual":"Animation of a right-angled triangle, with squares constructed on each side. The areas of the squares on sides a and b are combined to form the square on side c.", 
-    "scene-narration":"Let's look at a visual proof of the Pythagorean Theorem. If we construct a square on each side of our right-angled triangle, we can see that the combined area of the squares on sides a and b is exactly equal to the area of the square on side c. This visually demonstrates the truth of $a^2 + b^2 = c^2$."
-    \}
-]
-\}
-"""
+parser = argparse.ArgumentParser(description='Generate a scene based on a specified topic and file.')
+
+# Add arguments
+parser.add_argument('--topic', required=True, help='The topic for the scene.')
+parser.add_argument('--file', required=True, help='The file containing act and scene information.')
+
+# Parse arguments
+args = parser.parse_args()
+
+# Access arguments
+topic = args.topic
+curr_file = args.file[:-5]
+print(topic)
+print(curr_file)
+
+
+def json_file_to_string(file_path):
+    """Reads a JSON file and returns its content as a string."""
+    with open(file_path, 'r') as file:
+        return file.read()
+
+# Example usage:
+
+
+# Get the directory of the current script
+current_dir = os.path.dirname(os.path.abspath(__file__))
+print(current_dir)
+# Construct the absolute path to filename
+absolute_path_to_filename = os.path.join(current_dir, f"{topic}/{curr_file}")
+
+file_path = absolute_path_to_filename + ".json"
+content_as_string = json_file_to_string(file_path)
+
+
+scene_description = content_as_string
 
 initial_prompt = """
 1. Generate manim code for this scene from 3blue1brown video.
@@ -23,9 +51,10 @@ initial_prompt = """
 3. Make sure no elements overlap unless intentended.
 4. Make sure any text, diagrams or formulas fit fully on the screen.
 5. Write the whole code in one chunk at every code generation stage.
-6. Use the following imports:
+6. The code should output a video in the end, not just
+7. Use the following imports:
 import manim
-7. ALWAYS ALWAYS write python code between ```python ```.
+8. ALWAYS ALWAYS write python code between ```python ```.
 """
 
 system_message = """
@@ -73,9 +102,14 @@ messages = [
             #using system messages to prompt makes the model more obedient
             {"role": "system", "content": scene_description + initial_prompt},
     ]
-#out_dir = f"generations/{args.game_name}-{time.strftime('%Y-%m-%d-%H:%M:%S')}"
-out_dir = f"generations/wordembed-{time.strftime('%Y-%m-%d-%H:%M:%S')}"
+
+out_dir = f"{topic}/generations/{curr_file}/{time.strftime('%Y-%m-%d-%H:%M:%S')}"
 os.makedirs(out_dir)
+
+# print("filename incoming")
+# print(absolute_path_to_filename)
+# print("break")
+# breakpoint()
 
 for t in range(10):
         gpt_completion = get_oai_completion(messages)
@@ -90,7 +124,13 @@ for t in range(10):
 
         error = None
         try:
-            subprocess.run(["manim", os.path.join(out_dir, f"code_t{t}.py"), "-pql"], check=True, text=True, capture_output=True)
+            output_dir = absolute_path_to_filename
+            subprocess.run([
+                "manim",
+                os.path.join(out_dir, f"code_t{t}.py"),
+                "-pql",
+                "-o",
+                output_dir],check=True, text=True, capture_output=True)
         except subprocess.CalledProcessError as e:
             print(f"Error occurred: {e.stderr}")
             error = e.stderr
@@ -99,5 +139,6 @@ for t in range(10):
         if error is not None:
             messages.append({"role": "user", "content": f"Error: [{error}]. {error_prompt}"})
         else:
-            user_feedback = get_user_response(t)
-            messages.append({"role": "user", "content": f"Feedback:[ {user_feedback} ]. {feedback_prompt}"})
+            break
+            # user_feedback = get_user_response(t)
+            # messages.append({"role": "user", "content": f"Feedback:[ {user_feedback} ]. {feedback_prompt}"})
