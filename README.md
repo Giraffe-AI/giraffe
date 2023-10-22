@@ -17,8 +17,8 @@ cd backend
 npm install
 ```
 
-Finally, you need to have active access keys to the OpenAI and ElevenLabs API. 
-Please insert the OpenAI key into line 4 of logic/utils.py and the ElevenLabs key into line 6 of logic/narration/narration.py.
+Finally, you need to have **active access keys** to the OpenAI and ElevenLabs API. 
+Please insert the OpenAI key into line 4 of `logic/utils.py` and the ElevenLabs key into line 6 of `logic/narration/narration.py`.
 
 ## Running the Website
 
