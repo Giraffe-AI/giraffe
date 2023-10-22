@@ -1,0 +1,6 @@
+{
+    "scene-filename": "act4_scene1",
+    "scene-title": "Explanation - Part 1",
+    "scene-visual": "Visual representation of the chain rule using graphs",
+    "scene-narration": "To visualize this, imagine a graph of f against g and another graph of g against x. The slope of the tangent line at any point on the f-g graph represents df/dg, and on the g-x graph represents dg/dx. The product of these two gives us df/dx."
+}

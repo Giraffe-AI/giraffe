@@ -1,0 +1,6 @@
+{
+    "scene-filename": "act1_scene1",
+    "scene-title": "Introduction to Chain Rule",
+    "scene-visual": "A chain with links representing different functions",
+    "scene-narration": "Welcome to another episode of 3blue1brown. Today, we're going to explore the chain rule, a fundamental concept in calculus. Imagine a chain, each link representing a function. The chain rule helps us understand how a small change in one link affects the entire chain."
+}
