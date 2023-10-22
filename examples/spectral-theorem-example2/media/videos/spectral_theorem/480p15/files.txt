@@ -1,4 +1,0 @@
-file 'Diagonalization.mp4'
-file 'ImaginingEigenvectors.mp4'
-file 'Orthogonality.mp4'
-file 'PuttingItTogether.mp4'
