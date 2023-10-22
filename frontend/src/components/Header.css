@@ -32,3 +32,10 @@
     align-items: center;
 }
 
+.right button {
+    margin-right: 5vh;
+    background-color: #FFEAD9;
+    color: #4a4b81;
+    border: 2px solid #4a4b81;
+}
+

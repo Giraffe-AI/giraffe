@@ -16,7 +16,6 @@ const Researcher = forwardRef((props, ref) => {
         }
         const formData = new FormData();
         formData.append('file', file);
-        // Send formData to server using fetch or axios
     };
 
     return (
@@ -60,7 +59,7 @@ const Researcher = forwardRef((props, ref) => {
                                 <option value='indepth'>I want to know everything</option>
                             </select>
                         </div>
-                        <button className="submit-button" type="submit">Submit file</button>
+                        <button className="submit-button" type="submit">coming soon!</button>
                     </form>
                 </div>
                 <div className='giraffe-container'>

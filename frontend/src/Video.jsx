@@ -21,6 +21,7 @@ export default function Video() {
                     className='input-oval'
                     placeholder='Would you like to change anything?'
                 />
+                <br />
                 <div className='video-mid'>
                     <div className='video-container'>
                         <video width="600" height="400" controls >
