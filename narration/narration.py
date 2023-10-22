@@ -1,19 +1,43 @@
 from elevenlabs import generate, play, save
 from elevenlabs import set_api_key
 import moviepy.editor as mp
+import os
+import json
 set_api_key("fa2665e81b00d1a5ab4f6b30d6097ee6")
 
-audio = generate(
-  text="Welcome to another episode of 3blue1brown. Today, we're going to explore the Pythagorean theorem, a fundamental principle in geometry that you've probably heard of. It's about right-angled triangles, like the one you see here.",
-  voice="Charlie",
-  model="eleven_multilingual_v1"
-)
+# Assuming you are in a different folder and you want to loop through the .json files in the 'generations' folder
+folder_path = '../pythagorean_theorem/'
 
-file = save(audio,'test.mp3')
-videoclip = mp.VideoFileClip("PythagoreanTheorem.mp4")
-audioclip = mp.AudioFileClip("test.mp3")
+for filename in os.listdir(folder_path):
+    if filename.endswith(".json"):
+        with open(os.path.join(folder_path, filename), 'r') as f:
+            data = json.load(f)
+            name = os.path.splitext(filename)[0]
+            mp3_filename = name + '.mp3'
+            narration_text = data.get("scene-narration", "")
 
-new_audioclip = mp.CompositeAudioClip([audioclip])
-videoclip.audio = new_audioclip
-videoclip.write_videofile("narration.mp4")
-play(audio)
+            # Always generate and save audio from narration text.
+            if os.path.exists(mp3_filename):
+              print(f"Audio file {mp3_filename} exists, skipping.")
+            else:
+              audio = generate(
+                  text=narration_text,
+                  voice="Charlie",
+                  model="eleven_multilingual_v1"
+              )
+              save(audio, mp3_filename)
+
+            mp4_filepath = folder_path + name + '.mp4'
+
+            # Only attempt to combine audio and video if the MP4 exists.
+            if os.path.exists(mp4_filepath):
+                videoclip = mp.VideoFileClip(mp4_filepath)
+                audioclip = mp.AudioFileClip(mp3_filename)
+
+                new_audioclip = mp.CompositeAudioClip([audioclip])
+                videoclip.audio = new_audioclip
+                videoclip.write_videofile(mp4_filepath)
+            else:
+                print(f"Video file {mp4_filepath} does not exist, skipping.")
+
+

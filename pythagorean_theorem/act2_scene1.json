@@ -1,6 +1,6 @@
 {
     "scene-filename": "act2_scene1",
-    "scene-title": "Transition to Proof",
-    "scene-visual": "Animation of a right-angled triangle with sides a, b, and c",
-    "scene-narration": "Now that we know what the Pythagorean theorem states, let's delve into its proof."
+    "scene-title": "Transition to the Proof",
+    "scene-visual": "Animation of historical figures, Pythagoras and his followers",
+    "scene-narration": "This theorem is named after the ancient Greek mathematician Pythagoras, who, by the way, did not discover it. It was known and used by the Babylonians and Indians centuries before him. However, Pythagoras and his followers were the first to prove it. Let's dive into the proof."
 }

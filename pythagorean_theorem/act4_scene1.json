@@ -1,6 +1,6 @@
 {
     "scene-filename": "act4_scene1",
-    "scene-title": "Explanation: Importance of Pythagorean Theorem",
-    "scene-visual": "Animation showing various applications of the Pythagorean theorem",
-    "scene-narration": "The Pythagorean theorem is not just a mathematical curiosity. It has numerous applications in various fields, including physics, engineering, computer science, and even art."
+    "scene-title": "Explanation of the Proof",
+    "scene-visual": "Animation of the proof with highlighted areas",
+    "scene-narration": "The beauty of this proof lies in its simplicity. It uses nothing more than the basic principles of geometry. The key insight is to see the larger square as composed of a smaller square and four triangles, and to equate this to the area of the larger square calculated in the usual way. This gives us the Pythagorean theorem."
 }

@@ -1,6 +1,0 @@
-{
-    "scene-filename": "act1_scene2",
-    "scene-title": "Statement of Pythagorean Theorem",
-    "scene-visual": "Text: a\u00b2 + b\u00b2 = c\u00b2",
-    "scene-narration": "The theorem states that in a right-angled triangle, the square of the length of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the lengths of the other two sides. This can be written as a\u00b2 + b\u00b2 = c\u00b2."
-}
