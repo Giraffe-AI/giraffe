@@ -20,7 +20,7 @@ const Welcome = ({ learnerRef, creatorRef, researcherRef }) => {
   };
 
   const everyoneClick = () => {
-    window.location.href = '/video';
+    window.location.href = '/video/load';
   };
 
   return (

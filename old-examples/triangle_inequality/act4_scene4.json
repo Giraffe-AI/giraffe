@@ -1,6 +1,0 @@
-{
-    "scene-filename": "act4_scene4",
-    "scene-title": "Explanation - The Essence of the Proof",
-    "scene-visual": "Animation of the triangle with the inequality a + b > c highlighted",
-    "scene-narration": "So the essence of the proof is that y is included twice in a + b, but only once in c, making a + b greater than c."
-}

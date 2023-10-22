@@ -1,6 +1,0 @@
-{
-    "scene-filename": "act3_scene2",
-    "scene-title": "Proof of the Theorem",
-    "scene-visual": "A step-by-step visual representation of the proof of the theorem.",
-    "scene-narration": "Let's now prove this theorem. We start by considering a function F that is the antiderivative of f. By definition, the derivative of F is f. Now, if we evaluate F at b and a and subtract the two, we get the integral of f from a to b."
-}

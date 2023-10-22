@@ -111,7 +111,7 @@ messages = [
 out_dir = f"{topic}/generations/{curr_file}/{time.strftime('%Y-%m-%d-%H:%M:%S')}"
 os.makedirs(out_dir)
 
-for t in range(3):
+for t in range(2):
         print("="*20)
         print("working on" + curr_file)
         gpt_completion = get_oai_completion(messages)

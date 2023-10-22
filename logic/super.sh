@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # post temporary code to the website
-curl -X POST -H "Content-Type: application/json" -d '{"code":"200", "video":"temp"}' http://localhost:3001
+curl -X POST -H "Content-Type: application/json" -d '{"code":"200", "video":"temp"}' --max-time 1 http://localhost:3001/script-started
 
 # Run the Python script
-#python3 generate_script.py
+python3 generate_script.py
 
 # Run the Bash executable
 ./generate_all.sh
@@ -17,4 +17,4 @@ cd ..
 python3 linker.py
 
 # post the video
-curl -X POST -H "Content-Type: application/json" -d '{"code":"200", "video":"final.mp4"}' http://localhost:3001
+curl -X POST -H "Content-Type: application/json" -d '{"code":"200", "video":"final.mp4"}' http://localhost:3001/script-complete

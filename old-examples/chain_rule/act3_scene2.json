@@ -1,6 +1,0 @@
-{
-    "scene-filename": "act3_scene2",
-    "scene-title": "Main Proof - Part 2",
-    "scene-visual": "A detailed step-by-step proof of the chain rule",
-    "scene-narration": "Let's prove this. We start by taking a small change in x, denoted as dx. This causes a change in g, denoted as dg, which in turn causes a change in f, denoted as df. The ratio df/dx is what we're interested in, and using the chain rule, we can express this as df/dg * dg/dx."
-}

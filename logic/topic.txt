@@ -1,1 +1,1 @@
-chain_rule
+fundamental_theorem_of_calculus

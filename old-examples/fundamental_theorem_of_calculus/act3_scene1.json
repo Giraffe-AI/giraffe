@@ -1,6 +1,0 @@
-{
-    "scene-filename": "act3_scene1",
-    "scene-title": "Statement of the Theorem",
-    "scene-visual": "The statement of the Fundamental Theorem of Calculus appears on the screen.",
-    "scene-narration": "The Fundamental Theorem of Calculus states that the integral of a function f over an interval [a, b] is equal to the antiderivative F of f, evaluated at b and a, and subtracted: \u222b from a to b of f(x) dx = F(b) - F(a)."
-}

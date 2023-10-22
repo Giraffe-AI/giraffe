@@ -1,6 +1,0 @@
-{
-    "scene-filename": "act5_scene1",
-    "scene-title": "Recap of the Theorem",
-    "scene-visual": "A recap of the theorem and its proof, with key points highlighted.",
-    "scene-narration": "So, to recap, the Fundamental Theorem of Calculus tells us that the integral of a function over an interval is equal to the antiderivative of that function, evaluated at the endpoints of the interval and subtracted."
-}

@@ -1,6 +1,0 @@
-{
-    "scene-filename": "act2_scene4",
-    "scene-title": "Stating the Goal",
-    "scene-visual": "Text: 'Goal: Prove a + b > c'",
-    "scene-narration": "Our goal is to prove that a + b is greater than c, which is the essence of the triangle inequality."
-}
