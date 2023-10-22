@@ -17,6 +17,9 @@ cd backend
 npm install
 ```
 
+Finally, you need to have an active access key to the OpenAI API. 
+Please insert it into line 4 of logic/utils.py
+
 ## Running the Website
 
 To run the website on both frontend and backend, you need to create two terminals.
