@@ -9,7 +9,7 @@ import json
 
 
 scene_description = """
-    "title":"Scene 3: Visual Proof", 
+    "title":"Scene 3: Visual Proof",
     "scene-visual":"Animation of a right-angled triangle, with squares constructed on each side. The areas of the squares on sides a and b are combined to form the square on side c.", 
     "scene-narration":"Let's look at a visual proof of the Pythagorean Theorem. If we construct a square on each side of our right-angled triangle, we can see that the combined area of the squares on sides a and b is exactly equal to the area of the square on side c. This visually demonstrates the truth of $a^2 + b^2 = c^2$."
     \}
