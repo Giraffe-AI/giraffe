@@ -51,7 +51,7 @@ export default function App() {
   useEffect(() => {
     if (videoStatus === 'temp') {
       window.location.href = '/video/load';
-    } else if (videoStatus && videoStatus !== 'temp') {
+    } else if (videoStatus !== '' && videoStatus !== 'temp') {
       window.location.href = '/video/result';
     }
   }, [videoStatus]); // runs whenever videoStatus changes

@@ -1,6 +1,0 @@
-{
-    "scene-filename": "act2_scene1",
-    "scene-title": "Transition to the Main Proof",
-    "scene-visual": "A visual representation of a function being divided into infinitesimally small parts, symbolizing integration, and a tangent line on a curve, symbolizing differentiation.",
-    "scene-narration": "Before we dive into the proof, let's remind ourselves of what differentiation and integration are. Differentiation is about finding rates of change, while integration is about finding the total or accumulated value. But how are these two concepts related? That's what the Fundamental Theorem of Calculus is all about."
-}

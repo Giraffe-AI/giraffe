@@ -5,7 +5,7 @@ import json
 from utils import get_oai_completion
 
 
-topic = "fundamental theorem of calculus"
+topic = "area of the circle"
 
 def is_valid_json(s):
     try:
