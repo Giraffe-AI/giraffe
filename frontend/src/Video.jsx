@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './components/Header';
 import './Video.css';
 import './components/Generator-Generic.css';
-import video from "./assets/Byleth- Blood of the Innocent- Live at Wendy's.mp4";
+import video from "./assets/giraffe_gif.mp4";
 import clock from './assets/clock.png';
 import notepad from './assets/notepad.png';
 
