@@ -4,7 +4,6 @@ import uuid
 import json
 from utils import get_oai_completion
 
-
 topic = "pythagorean theorem"
 
 def is_valid_json(s):
@@ -54,4 +53,8 @@ for entry in data_list:
     filename = os.path.join(directory, entry["scene-filename"] + ".json")
     with open(filename, "w") as file:
         json.dump(entry, file, indent=4)
+
+# generate buffer file topic.txt that other files can use to get topic
+with open("topic.txt", "w") as f:
+    f.write(directory)
 

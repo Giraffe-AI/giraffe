@@ -2,5 +2,5 @@
     "scene-filename": "act3_scene1",
     "scene-title": "Setting up the Proof",
     "scene-visual": "Animation of a square with a right-angled triangle in each corner",
-    "scene-narration": "Let's start by constructing a square with side length a + b. Inside this square, we can fit four right-angled triangles, each with sides a, b, and c."
+    "scene-narration": "Let's start by constructing a square with side length a + b. Inside this square, we can fit four right-angled triangles, each with sides a, b, and c, and a smaller square with side length c."
 }

@@ -1,6 +1,6 @@
 {
     "scene-filename": "act3_scene2",
     "scene-title": "Completing the Proof",
-    "scene-visual": "Animation showing the rearrangement of the triangles to form two squares",
-    "scene-narration": "Now, if we rearrange these triangles, we can form two squares: one with side length a and one with side length b. The total area of these squares is equal to the area of the original square, proving the Pythagorean theorem."
+    "scene-visual": "Animation showing the areas of the larger square and the smaller square",
+    "scene-narration": "The area of the larger square is (a + b)^2, which equals a^2 + 2ab + b^2. The combined area of the four triangles and the smaller square is 4*(1/2)*ab + c^2. Setting these two equal, we find that a^2 + b^2 = c^2, which is the Pythagorean theorem."
 }

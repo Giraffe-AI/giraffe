@@ -1,6 +1,6 @@
 {
     "scene-filename": "act4_scene1",
     "scene-title": "Explanation of the Proof",
-    "scene-visual": "Animation showing the steps of the proof in detail",
-    "scene-narration": "Let's go through that again. The area of the original square is (a + b)^2. The area of the four triangles and the small square is 4*(1/2)*a*b + c^2. Setting these equal to each other gives us the Pythagorean theorem."
+    "scene-visual": "Animation revisiting the steps of the proof",
+    "scene-narration": "Let's go through that again. We started with a square of side length a + b, and inside it, we fit four right-angled triangles and a smaller square. By comparing the areas, we found that the Pythagorean theorem holds true."
 }

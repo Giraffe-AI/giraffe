@@ -127,7 +127,7 @@ for t in range(3):
             subprocess.run([
                 "manim",
                 os.path.join(out_dir, f"code_t{t}.py"),
-                "-pql",
+                "-ql",
                 "-o",
                 output_dir],check=True, text=True, capture_output=True)
         except subprocess.CalledProcessError as e:

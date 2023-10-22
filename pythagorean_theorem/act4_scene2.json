@@ -1,6 +1,6 @@
 {
     "scene-filename": "act4_scene2",
-    "scene-title": "Further Explanation",
-    "scene-visual": "Animation showing different examples of right-angled triangles",
-    "scene-narration": "This proof shows us that no matter what the lengths of a, b, and c are, as long as the triangle is right-angled, the Pythagorean theorem will always hold true."
+    "scene-title": "Further Implications of the Theorem",
+    "scene-visual": "Animation showing different right-angled triangles",
+    "scene-narration": "This theorem is not just a mathematical curiosity. It has profound implications in various fields, from physics to computer science, and even in the way we perceive distance and space."
 }

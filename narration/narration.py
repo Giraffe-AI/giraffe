@@ -6,7 +6,8 @@ import json
 set_api_key("fa2665e81b00d1a5ab4f6b30d6097ee6")
 
 # Assuming you are in a different folder and you want to loop through the .json files in the 'generations' folder
-folder_path = '../pythagorean_theorem/'
+with open('../topic.txt', 'r') as file:
+    folder_path = '../' + file.read().strip()
 
 for filename in os.listdir(folder_path):
     if filename.endswith(".json"):
@@ -27,7 +28,7 @@ for filename in os.listdir(folder_path):
               )
               save(audio, mp3_filename)
 
-            mp4_filepath = folder_path + name + '.mp4'
+            mp4_filepath = folder_path + '/' + name + '.mp4'
 
             # Only attempt to combine audio and video if the MP4 exists.
             if os.path.exists(mp4_filepath):

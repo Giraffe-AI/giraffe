@@ -1,6 +1,6 @@
 {
     "scene-filename": "act5_scene1",
-    "scene-title": "Applications of the Pythagorean Theorem",
-    "scene-visual": "Animation showing different real-world applications of the theorem",
-    "scene-narration": "The Pythagorean theorem is not just a theoretical concept. It has numerous applications in real life, from architecture to navigation to computer graphics."
+    "scene-title": "Recap of the Pythagorean Theorem",
+    "scene-visual": "Animation showing the formula a^2 + b^2 = c^2",
+    "scene-narration": "So, to recap, the Pythagorean theorem tells us that in any right-angled triangle, the square of the length of the hypotenuse is equal to the sum of the squares of the lengths of the other two sides."
 }
