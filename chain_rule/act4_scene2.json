@@ -1,0 +1,6 @@
+{
+    "scene-filename": "act4_scene2",
+    "scene-title": "Explanation - Part 2",
+    "scene-visual": "Examples of applying the chain rule",
+    "scene-narration": "Let's apply this to some examples. Suppose f(x) = sin(x) and g(x) = x^2. Then, using the chain rule, the derivative of f(g(x)) = sin(x^2) is cos(x^2) * 2x."
+}

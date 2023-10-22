@@ -5,7 +5,7 @@ import json
 from utils import get_oai_completion
 
 
-topic = "pythagorean theorem"
+topic = "chain rule"
 
 def is_valid_json(s):
     try:

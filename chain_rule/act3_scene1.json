@@ -1,0 +1,6 @@
+{
+    "scene-filename": "act3_scene1",
+    "scene-title": "Main Proof - Part 1",
+    "scene-visual": "A mathematical proof showing the chain rule",
+    "scene-narration": "Let's consider a chain of two functions, f(g(x)). The chain rule states that the derivative of this composite function is the derivative of f with respect to g times the derivative of g with respect to x. Mathematically, it's expressed as (f(g(x)))' = f'(g(x)) * g'(x)."
+}
