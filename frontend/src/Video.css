@@ -1,0 +1,20 @@
+#root {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.video-mid {
+    margin-top: 1vh;
+    display: inline-flex;
+}
+
+.video-container {
+    margin-right: 10vh;
+    display: inline-flex;
+}

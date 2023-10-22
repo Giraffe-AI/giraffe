@@ -39,10 +39,10 @@
 
 .user-form {
     text-align: left;
-    display: flex; 
-    flex-direction: column; 
-    justify-content: space-between; 
-    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 
 .pre-form {
@@ -51,7 +51,7 @@
 }
 
 .pre-form img {
-    margin-right: 2.5vh; 
+    margin-right: 2.5vh;
     max-width: 30px;
 }
 
@@ -75,9 +75,9 @@
 }
 
 .dropdown {
-    margin-top: 2vh; 
-    margin-bottom: 5vh; 
-    margin-left: 8vh; 
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    margin-left: 8vh;
     width: 250px;
     height: 50px;
     border: 2px solid #DE7117;
@@ -108,4 +108,30 @@
 .giraffe-researchers {
     margin-top: -5vh;
     max-width: 80%;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8vh;
+    border: 1px solid #ccc;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 220px;
+    height: 50px;
+}
+
+.custom-file-upload:hover {
+    background-color: #f2f2f2;
+}
+
+.file-input {
+    display: inline-block;
+    margin-bottom: 5vh;
 }

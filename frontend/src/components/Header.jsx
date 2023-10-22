@@ -1,15 +1,7 @@
 import React, { useState } from 'react';
 import './Header.css';
 
-function Header() {
-
-  const handleClick = () => {
-    window.scrollTo({
-      top: 0,
-      left: 0,
-      behavior: 'smooth'
-    });
-  };
+function Header({ handleClick }) {
 
   return (
     <div className='header'>

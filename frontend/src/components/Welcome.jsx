@@ -19,6 +19,10 @@ const Welcome = ({ learnerRef, creatorRef, researcherRef }) => {
     researcherRef.current.scrollIntoView({ behavior: "smooth" });
   };
 
+  const everyoneClick = () => {
+    window.location.href = '/video';
+  };
+
   return (
     <div>
       <div className='pre-heading'>
@@ -39,7 +43,7 @@ const Welcome = ({ learnerRef, creatorRef, researcherRef }) => {
             <li onClick={learnerClick}>For learners</li>
             <li onClick={creatorClick}>For creators</li>
             <li onClick={researcherClick}>For researchers</li>
-            <li>For <eo>everyone!</eo></li>
+            <li onClick={everyoneClick}>For <eo>everyone!</eo></li>
           </ul>
         </div>
         <div className='right'>
