@@ -1,5 +1,9 @@
 # Giraffe
 
+## Demo
+Check us out on Devpost to see more details and the working demo of a generated AI video completely produced by our codebase: https://devpost.com/software/giraffe-study.
+
+
 ## Installation
 
 To install the required dependencies, run the following commands in your terminal. 
