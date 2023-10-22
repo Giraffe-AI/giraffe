@@ -1,0 +1,6 @@
+{
+    "scene-filename": "act2_scene2",
+    "scene-title": "Setting up the Proof",
+    "scene-visual": "Animation of a square with a right-angled triangle inside",
+    "scene-narration": "Consider a square with side length a + b. Inside this square, we can fit four right-angled triangles and a smaller square with side length c."
+}

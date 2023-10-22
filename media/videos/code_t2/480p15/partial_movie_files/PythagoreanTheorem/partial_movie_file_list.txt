@@ -1,9 +1,3 @@
 # This file is used internally by FFMPEG.
-file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t2/480p15/partial_movie_files/PythagoreanTheorem/4266129954_1277336432_223132457.mp4'
-file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t2/480p15/partial_movie_files/PythagoreanTheorem/1442284246_2805238789_219199966.mp4'
-file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t2/480p15/partial_movie_files/PythagoreanTheorem/1442284246_1970389930_3948937359.mp4'
-file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t2/480p15/partial_movie_files/PythagoreanTheorem/1442284246_4030953008_3305719623.mp4'
-file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t2/480p15/partial_movie_files/PythagoreanTheorem/1442284246_373199473_373830606.mp4'
-file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t2/480p15/partial_movie_files/PythagoreanTheorem/1442284246_3843580699_2870192239.mp4'
-file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t2/480p15/partial_movie_files/PythagoreanTheorem/1442284246_15970466_4239975207.mp4'
-file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t2/480p15/partial_movie_files/PythagoreanTheorem/1442284246_3315967912_3095953268.mp4'
+file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t2/480p15/partial_movie_files/PythagoreanTheorem/4266129954_1523345130_2021335732.mp4'
+file 'file:/Users/mbondarenko/Desktop/ai-educational-video/giraffe/media/videos/code_t2/480p15/partial_movie_files/PythagoreanTheorem/1442284246_2292429055_4154577675.mp4'
