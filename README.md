@@ -7,6 +7,7 @@ pip install elevenlabs
 pip install openai
 pip install MoviePy
 ```
+
 ```
 chmod +x super.sh
 ./super.sh
