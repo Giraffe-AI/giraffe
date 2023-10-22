@@ -3,7 +3,7 @@ from elevenlabs import set_api_key
 import moviepy.editor as mp
 import os
 import json
-set_api_key("fa2665e81b00d1a5ab4f6b30d6097ee6")
+set_api_key("YOUR_API_KEY")
 
 # Assuming you are in a different folder and you want to loop through the .json files in the 'generations' folder
 with open('../topic.txt', 'r') as file:
