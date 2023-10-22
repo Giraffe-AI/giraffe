@@ -12,7 +12,6 @@ curl -X POST -H "Content-Type: application/json" -d '{"code":"200", "video":"tem
 # Run the narration script
 cd narration
 python3 narration.py
-<<<<<<< HEAD
 cd ..
 # Link it all together
 python3 linker.py
