@@ -1,6 +1,6 @@
 # Giraffe
 
-You can run the system by downloading the repo and running the following things:
+You can run the system by downloading the repo and running the following things in your terminal:
 ```
 pip install manim
 pip install elevenlabs
