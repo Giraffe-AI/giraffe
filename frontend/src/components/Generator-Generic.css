@@ -56,6 +56,7 @@
 }
 
 .input-oval {
+    color: black;
     text-align: center;
     width: 400px;
     height: 100px;
@@ -75,6 +76,7 @@
 }
 
 .dropdown {
+    color: #213547;
     margin-top: 2vh;
     margin-bottom: 5vh;
     margin-left: 8vh;

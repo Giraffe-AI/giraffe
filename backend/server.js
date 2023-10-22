@@ -11,12 +11,12 @@ app.use(express.json());
 app.use(cors());
 
 // Route for handling the JSON data and running the bash script
-app.post('/run-script', (req, res) => {
+app.post('/', (req, res) => {
   // Assuming your JSON data is used in some way when running the script
   const jsonData = req.body;
 
   // Replace 'path/to/script.sh' with your script's actual path
-  exec('bash path/to/script.sh', (error, stdout, stderr) => {
+  exec('bash ../hello.sh', (error, stdout, stderr) => {
     if (error) {
       console.error(`exec error: ${error}`);
       return res.status(500).json({ error: `exec error: ${error}` });
@@ -24,6 +24,8 @@ app.post('/run-script', (req, res) => {
     // Send script output as response
     res.json({ output: stdout });
   });
+
+  console.log(jsonData);
 });
 
 // Start the server

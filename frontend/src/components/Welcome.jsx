@@ -27,9 +27,9 @@ const Welcome = ({ learnerRef, creatorRef, researcherRef }) => {
     <div>
       <div className='pre-heading'>
         <p>
-          Unlock your learning potential
+          Unlock your learning potential with
           <br />
-          with tailored video explanations
+          tailored AI-generated video explanations
         </p>
       </div>
       <div className='heading'>

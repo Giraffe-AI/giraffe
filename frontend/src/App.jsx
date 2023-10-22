@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, event } from 'react';
 import Header from './components/Header';
 import Welcome from './components/Welcome';
 import Learner from './components/Learner';
@@ -20,13 +20,31 @@ export default function App() {
     });
   };
 
+  function postRequest(event, requestData) {
+    event.preventDefault();
+    fetch('http://localhost:3001/', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(requestData),
+    })
+      .then(response => response.json())
+      .then(data => {
+        console.log('Success:', data);
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+      });
+  };
+
   return (
     <div>
-      <Header handleClick={handleClick}/>
+      <Header handleClick={handleClick} />
       <Welcome learnerRef={learnerRef} creatorRef={creatorRef} researcherRef={researcherRef} />
-      <Learner ref={learnerRef} />
-      <Creator ref={creatorRef}/>
-      <Researcher ref={researcherRef}/>
+      <Learner ref={learnerRef} postRequest={postRequest} />
+      <Creator ref={creatorRef} postRequest={postRequest} />
+      <Researcher ref={researcherRef} postRequest={postRequest} />
     </div>
   )
 };
