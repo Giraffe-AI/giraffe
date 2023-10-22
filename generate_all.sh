@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Directory containing the JSON files
-directory="pythagorean_theorem"
+directory="chain_rule"
 
 # Extract the name of the last directory to use as the topic
 topic=$(basename "$directory")
