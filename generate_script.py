@@ -23,7 +23,6 @@ if __name__ == "__main__":
     Act 3: Main proof/result (2 scenes)
     Act 4: Explanation (2 scenes)
     Act 5: Conclusion (2 scenes)
->>>>>>> 4d4bcb2c2c1a5f58f599006f0844f29360ce6a34
     and return output in following format:
     [
         {
