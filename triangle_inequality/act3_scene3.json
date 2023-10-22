@@ -1,0 +1,6 @@
+{
+    "scene-filename": "act3_scene3",
+    "scene-title": "Main Proof - Step 3",
+    "scene-visual": "Animation of the triangle with focus on sides a, b, and c",
+    "scene-narration": "Now, if we add a and b, we get 2y + x + z, which is clearly greater than x + z, which is equal to c."
+}
