@@ -30,8 +30,6 @@ def json_file_to_string(file_path):
     with open(file_path, 'r') as file:
         return file.read()
 
-# Example usage:
-
 
 # Get the directory of the current script
 current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -42,20 +40,21 @@ absolute_path_to_filename = os.path.join(current_dir, f"{topic}/{curr_file}")
 file_path = absolute_path_to_filename + ".json"
 content_as_string = json_file_to_string(file_path)
 
-
 scene_description = content_as_string
 
 initial_prompt = """
-1. Generate manim code for this scene from 3blue1brown video.
-2. Make sure to erase elements you no longer need.
-3. Make sure no elements overlap unless intentended.
-4. Make sure any text, diagrams or formulas fit fully on the screen.
-5. Write the whole code in one chunk at every code generation stage.
-6. The code should output a video in the end, not just
-7. DO NOT use any outside pictures or resources in your code and do not try to access them through your code!
-8. Use the following imports:
-import manim
-9. ALWAYS ALWAYS write python code between ```python ```.
+1. Given the scene description, write an outline manim code for this scene in 3blue1brown style.
+2. Make sure that the any LaTeX equations are rendered correctly.
+3. Make sure that the font is small and every text fits in. 
+4. Make sure that font_size < 25pt.
+5. Make sure no objects are in the same position.
+6. Make sure any text, diagrams or formulas fit fully on the screen.
+7. Write the whole code in one chunk at every code generation stage.
+8. Use the following imports: import manim
+9. Make the sentence concise by limiting to 10 words per sentence.
+10. Make sure that the mathematics is consistent with the narration.
+11. Always write python code between ```python ```.
+12. Make sure that all visualizations are coherent and has a mathematical basis.
 """
 
 system_message = """
@@ -74,9 +73,13 @@ Step by step
 
 error_prompt = """
 Step by step
-1. Briefly discuss how to address the error.
-2. Write out the whole code in one chunk in ```python ``` (Markdown). Otherwise it will not be accepted.
-3. After generating the code, don't forget to write down a list of your completed tasks and your remaining TODOs from the previous section.
+1. Check your work. Twice.
+2. Check if the animation neccessary?
+3. Make sure no objects are overlapping. 
+4. Does your animation support what is explained in the narration?
+5. Briefly discuss how to address the error.
+6. Write out the whole code in one chunk in ```python ``` (Markdown). Otherwise it will not be accepted.
+7. After generating the code, don't forget to write down a list of your completed tasks and your remaining TODOs from the previous section.
 """
 
 def response_to_code(completion_text):
@@ -106,11 +109,6 @@ messages = [
 
 out_dir = f"{topic}/generations/{curr_file}/{time.strftime('%Y-%m-%d-%H:%M:%S')}"
 os.makedirs(out_dir)
-
-# print("filename incoming")
-# print(absolute_path_to_filename)
-# print("break")
-# breakpoint()
 
 for t in range(3):
         gpt_completion = get_oai_completion(messages)

@@ -18,11 +18,12 @@ if __name__ == "__main__":
     idea_prompt = """
     Generate script for an educational video on %s in the style of 3blue 1brown. Format your output as a JSON file as per the example below.
     The script should consist of 5 acts:
-    Act 1: Introduction (3 scenes)
-    Act 2: Transition (3 scenes)
-    Act 3: Main proof/result (3 scenes)
-    Act 4: Explanation (3 scenes)
-    Act 5: Conclusion (3 scenes)
+    Act 1: Introduction (2 scenes)
+    Act 2: Transition (1 scenes)
+    Act 3: Main proof/result (2 scenes)
+    Act 4: Explanation (2 scenes)
+    Act 5: Conclusion (2 scenes)
+>>>>>>> 4d4bcb2c2c1a5f58f599006f0844f29360ce6a34
     and return output in following format:
     [
         {

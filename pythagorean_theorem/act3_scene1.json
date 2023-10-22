@@ -1,6 +1,6 @@
 {
     "scene-filename": "act3_scene1",
-    "scene-title": "Main Proof of the Pythagorean Theorem",
-    "scene-visual": "Animation of a square with a right-angled triangle inside it",
-    "scene-narration": "Consider a square with side length a + b. We can divide this square into a smaller square of side length c and four right-angled triangles. The area of the larger square is (a+b)\u00b2, which equals a\u00b2 + 2ab + b\u00b2. The combined area of the smaller square and the triangles is c\u00b2 + 2ab. Equating these two gives us a\u00b2 + b\u00b2 = c\u00b2, which is the Pythagorean theorem."
+    "scene-title": "Setting up the Proof",
+    "scene-visual": "Animation of a square with a right-angled triangle in each corner",
+    "scene-narration": "Let's start by constructing a square with side length a + b. Inside this square, we can fit four right-angled triangles, each with sides a, b, and c."
 }

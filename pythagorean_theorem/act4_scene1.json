@@ -1,6 +1,6 @@
 {
     "scene-filename": "act4_scene1",
     "scene-title": "Explanation of the Proof",
-    "scene-visual": "Animation of the proof with highlighted areas",
-    "scene-narration": "The beauty of this proof lies in its simplicity. It uses nothing more than the basic principles of geometry. The key insight is to see the larger square as composed of a smaller square and four triangles, and to equate this to the area of the larger square calculated in the usual way. This gives us the Pythagorean theorem."
+    "scene-visual": "Animation showing the steps of the proof in detail",
+    "scene-narration": "Let's go through that again. The area of the original square is (a + b)^2. The area of the four triangles and the small square is 4*(1/2)*a*b + c^2. Setting these equal to each other gives us the Pythagorean theorem."
 }
