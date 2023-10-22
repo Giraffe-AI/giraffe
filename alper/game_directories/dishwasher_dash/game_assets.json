@@ -1,0 +1,12 @@
+{
+    "player_sprite": "8-bit dish washer character png",
+    "dish_dirty": "8-bit dirty dish sprite png",
+    "dish_clean": "8-bit clean dish sprite png",
+    "dish_broken": "8-bit broken dish sprite png",
+    "counter_sprite": "8-bit kitchen counter sprite png",
+    "sink_sprite": "8-bit sink sprite png",
+    "drying_rack_sprite": "8-bit drying rack sprite png",
+    "conveyor_belt_sprite": "8-bit conveyor belt sprite png",
+    "background_kitchen": "8-bit kitchen background",
+    "background_diner": "8-bit diner background"
+}

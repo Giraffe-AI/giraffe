@@ -1,0 +1,4 @@
+generate a simple atari shooter game using pygame and pymonk. the game must satisfy following qualities:
+
+- includes a clear, achievable objective
+- features prepration of food

@@ -1,0 +1,39 @@
+{
+    "name": "dish_dash",
+    "genre": "action",
+    "movement_type": "single_screen_multi_level",
+    "game_mechanics": ["running", "grabbing", "throwing"],
+    "game_dynamics": ["collision_detection", "time_pressure"],
+    "object_properties": {
+        "movable": ["dishes", "soap_suds"],
+        "immovable": ["sink", "dish_rack"],
+        "harmful": ["broken_dishes"]
+    },
+    "score_system": {
+        "points_per_dish": 1,
+        "bonus_points": "speed_and_efficiency",
+        "penalty": "broken_dishes"
+    },
+    "game_rules": {
+        "winning_conditions": "reach_target_score",
+        "losing_conditions": ["break_too_many_dishes", "fail_to_reach_target_score"],
+        "game_ending_conditions": "time_runs_out"
+    },
+    "visual_aesthetics": {
+        "color_palette": "bright_and_colorful",
+        "sprite_size": "medium",
+        "background": "detailed_kitchen",
+        "animation": "smooth"
+    },
+    "randomizable_elements": ["position_of_dishes", "frequency_of_soap_suds", "occurrence_of_broken_dishes"],
+    "image_assets": {
+        "player_character": "cartoon dishwasher png",
+        "dirty_dish": "dirty dish png",
+        "clean_dish": "clean dish png",
+        "broken_dish": "broken dish png",
+        "soap_suds": "soap suds png",
+        "sink": "kitchen sink png",
+        "dish_rack": "dish rack png",
+        "kitchen_background": "restaurant kitchen background png"
+    }
+}

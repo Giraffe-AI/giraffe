@@ -1,0 +1,22 @@
+{
+    "title": "Understanding the Pythagorean Theorem",
+    "act-description": "This act introduces the Pythagorean theorem, explains its significance, and demonstrates its application through a series of animated scenes.",
+    "num-of-scenes": "3",
+    "scenes": [
+        {
+            "title": "Introduction to Pythagorean Theorem",
+            "scene-visual": "A right-angled triangle appears on the screen, with each side labeled a, b, and c. The narrator's hand points to each side as they are mentioned.",
+            "scene-narration": "The Pythagorean theorem is a fundamental principle in geometry. It states that in a right-angled triangle, the square of the length of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the lengths of the other two sides. We often express this as a\u00b2 + b\u00b2 = c\u00b2."
+        },
+        {
+            "title": "Significance of Pythagorean Theorem",
+            "scene-visual": "A series of triangles of different sizes and orientations appear, demonstrating the theorem's universal applicability. The squares on each side of the triangles are shown, visually demonstrating the theorem.",
+            "scene-narration": "The Pythagorean theorem is not just a mathematical curiosity. It's a fundamental relationship that holds true for any right-angled triangle, regardless of its size or orientation. This theorem is used in various fields, from architecture to physics, and even in computer graphics and machine learning."
+        },
+        {
+            "title": "Application of Pythagorean Theorem",
+            "scene-visual": "A practical problem involving distance between two points on a grid is shown. The problem is solved using the Pythagorean theorem, with each step animated and explained.",
+            "scene-narration": "Let's see how we can apply the Pythagorean theorem. Suppose we want to find the shortest distance between two points on a grid. We can form a right-angled triangle with these points and the origin, and then use the theorem to calculate this distance. This is just one of the many practical applications of this fundamental theorem."
+        }
+    ]
+}
